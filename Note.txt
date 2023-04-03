@@ -1,0 +1,3 @@
+ if wordChecker(secretWord, correctLetters) != False:
+    print("You guessed the word correct!\n")
+    break
