@@ -43,8 +43,6 @@ while correct is False or lives != 0:
   elif guess in incorrectLetters:
     print("You already guessed that letter and it was incorrect")
 
-  if wordChecker(secretWord, correctLetters) != False:
-    print("You guessed the word correct!\n")
-    break
+  if wordChecker()
     
   
