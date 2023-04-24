@@ -29,6 +29,17 @@ correct = False
 while correct is False or lives != 0:
   
   guess = input("Please guess a letter\n") 
+  if guess == "hint!":
+    print("The hint is", hint)
+    continue
+
+  if guess == secretWord:
+    print("You guessed the word correctly, You win!\n")
+    break
+  else:
+    print("Sorry that was not the secret word\n")
+    lives = lives - 10
+    continue
 
   if guess in secretWord:
     print("You got one of the letters correct!")
