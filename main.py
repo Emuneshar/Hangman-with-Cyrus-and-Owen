@@ -18,6 +18,8 @@ lives = 10
 
 os.system('clear')
 
+print("If you would like to see a hint type 'hint!'")
+
 correctLetters = []
 correctLetters.append(secretWord)
 incorrectLetters = []
